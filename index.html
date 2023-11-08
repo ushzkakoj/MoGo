@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <header>
-    <a href="">Mogo</a>
-    <nav>
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Work</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
+  <header class="header">
+    <a class="header__logo" href="./index.html">Mogo</a>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Service</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Work</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Blog</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
       </ul>
     </nav>
-  </header>
+  </header> 
   <main>
-    <section>
-      <p>We work with</p>
-      <h2>Amazing Servies</h2>
+    <section class="services">
+      <p class="services__text">We work with</p>
+      <h2 class="services__title">Amazing Servies</h2>
     </section>
-  
-  <section>
-    <ul>
-      <li>
+  <section class="works">
+    <ul class="works__list">
+      <li class="works__item">
         <svg xmlns="http://www.w3.org/2000/svg" width="38" height="37" viewBox="0 0 38 37" fill="none">
           <g clip-path="url(#clip0_4_10)">
             <path
@@ -47,10 +46,10 @@
             </clipPath>
           </defs>
         </svg>
-        <h3>photography</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h3 class="works__title">photography</h3>
+        <p class="works__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li>
+      <li class="works__item"></li>>
         <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
           <g clip-path="url(#clip0_4_15)">
             <path
@@ -66,10 +65,10 @@
             </clipPath>
           </defs>
         </svg>
-        <h3>photography</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h3 class="works__title">photography</h3>
+        <p class="works__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li>
+      <li class="works__item"></li>>
         <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
           <g clip-path="url(#clip0_6_2)">
             <path
@@ -88,10 +87,10 @@
             </clipPath>
           </defs>
         </svg>
-        <h3>photography</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h3 class="works__title">photography</h3>
+        <p class="works__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li>
+      <li class="works__item"></li>>
         <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
           <path
             d="M5.3195 26.524C5.1869 26.524 5.05972 26.4713 4.96595 26.3776C4.87218 26.2838 4.8195 26.1566 4.8195 26.024V7.6335C4.84197 6.4115 5.34507 5.24757 6.21977 4.39392C7.09447 3.54028 8.27032 3.0657 9.49251 3.073H30.8225C30.9551 3.073 31.0823 3.12568 31.1761 3.21945C31.2698 3.31322 31.3225 3.4404 31.3225 3.573C31.3225 3.70561 31.2698 3.83279 31.1761 3.92656C31.0823 4.02033 30.9551 4.073 30.8225 4.073H9.49251C8.53369 4.06675 7.61091 4.43804 6.92362 5.10662C6.23632 5.7752 5.83971 6.68738 5.8195 7.646V26.024C5.8195 26.1566 5.76683 26.2838 5.67306 26.3776C5.57929 26.4713 5.45211 26.524 5.3195 26.524Z"
@@ -139,10 +138,10 @@
             d="M19.953 23.503C19.8204 23.503 19.6932 23.4503 19.5995 23.3565L15.7065 19.4635C15.6587 19.4174 15.6206 19.3622 15.5944 19.3012C15.5682 19.2402 15.5544 19.1746 15.5539 19.1082C15.5533 19.0418 15.5659 18.976 15.5911 18.9145C15.6162 18.8531 15.6533 18.7973 15.7003 18.7503C15.7472 18.7034 15.8031 18.6662 15.8645 18.6411C15.926 18.6159 15.9918 18.6033 16.0582 18.6039C16.1246 18.6045 16.1902 18.6182 16.2512 18.6445C16.3122 18.6707 16.3674 18.7087 16.4135 18.7565L20.15 22.491L21.114 22.436L21.17 21.4705L21.089 21.3895L20.271 21.2965C20.1586 21.2838 20.0538 21.2332 19.9738 21.1532C19.8937 21.0732 19.8432 20.9684 19.8305 20.856L19.7625 20.2605L19.168 20.193C19.0555 20.1804 18.9506 20.1299 18.8704 20.0499C18.7903 19.9699 18.7398 19.865 18.727 19.7525L18.634 18.9345L17.434 17.7345C17.3429 17.6402 17.2925 17.5139 17.2937 17.3828C17.2948 17.2517 17.3474 17.1263 17.4401 17.0336C17.5328 16.9409 17.6582 16.8883 17.7893 16.8872C17.9204 16.886 18.0467 16.9364 18.141 17.0275L19.4625 18.35C19.5426 18.4298 19.5931 18.5346 19.6055 18.647L19.6735 19.243L20.2685 19.31C20.3809 19.3227 20.4857 19.3733 20.5657 19.4533C20.6457 19.5333 20.6962 19.6381 20.709 19.7505L20.777 20.347L21.374 20.415C21.4863 20.4277 21.591 20.4781 21.671 20.558L22.034 20.9215C22.0838 20.9714 22.1226 21.0313 22.1477 21.0972C22.1727 21.1631 22.1836 21.2336 22.1795 21.304L22.0845 22.9375C22.0773 23.0599 22.0254 23.1754 21.9387 23.2621C21.852 23.3487 21.7364 23.4005 21.614 23.4075L19.9815 23.5015L19.953 23.503Z"
             fill="#95E1D3" />
         </svg>
-        <h3>photography</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h3 class="works__title">photography</h3>
+        <p class="works__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li>
+      <li class="works__item"></li>>
         <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
           <g clip-path="url(#clip0_6_24)">
             <path
@@ -173,10 +172,10 @@
             </clipPath>
           </defs>
         </svg>
-        <h3>photography</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h3 class="works__title">photography</h3>
+        <p class="works__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li>
+      <li class="works__item"></li>>
         <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
           <path
             d="M13.5667 15.4167V1.85C13.5667 0.801546 12.7651 0 11.7167 0H5.55001C4.50156 0 3.70001 0.801546 3.70001 1.85V15.4167C3.70001 16.4651 4.50156 17.2667 5.55001 17.2667H11.7167C12.7651 17.2667 13.5667 16.4651 13.5667 15.4167ZM12.3333 13.5667H4.93335V3.7H12.3333V13.5667ZM5.55001 1.23333H11.7167C12.0867 1.23333 12.3333 1.47994 12.3333 1.85V2.46667H4.93335V1.85C4.93335 1.47994 5.17995 1.23333 5.55001 1.23333ZM4.93335 15.4167V14.8H12.3333V15.4167C12.3333 15.7867 12.0867 16.0333 11.7167 16.0333H5.55001C5.17995 16.0333 4.93335 15.7867 4.93335 15.4167Z"
@@ -204,59 +203,56 @@
             d="M2.46667 24.6667V12.95H1.23334V24.6667C1.23334 25.7151 2.03488 26.5167 3.08334 26.5167H4.93334V25.2833H3.08334C2.71328 25.2833 2.46667 25.0367 2.46667 24.6667Z"
             fill="#95E1D3" />
         </svg>
-        <h3>photography</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h3 class="works__title">photography</h3>
+        <p class="works__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
     </ul>
   </section>
 
-  <section>
-    <p>Who we are</p>
-    <h2> Meet our team </h2>
+  <section class="team">
+    <p class="team__text">Who we are</p>
+    <h2 class="team__title"> Meet our team </h2>
   
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    <p class="team__subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. </p>
   </section>
 
-  <section>
-    <ul>
-      <li>
-        <img src="./img/first-man.jpg" alt="Design">
-        <h3>
+  <section class="team-members">
+    <ul class="team-members__list">
+      <li class="team-members__item">
+        <img class="team-members__img" src="./img/first-man.jpg" alt="Design">
+        <h3 class="team-members__name">
           Matthew Dix
         </h3>
-        <p>Graphic Design</p>
+        <p class="team-members__position">Graphic Design</p>
       </li>
-      <li>
-        <img src="./img/second-man.jpg" alt="UX design">
-        <h3>
+      <li class="team-members__item">
+        <img class="team-members__img" src="./img/second-man.jpg" alt="UX design">
+        <h3 class="team-members__name">
           Christopher Campbell
-        </h3>
-        <p>Branding/UX design</p>
+        </h3 >
+        <p class="team-members__position">Branding/UX design</p>
       </li>
-      <li>
-        <img src="./img/third-man.jpg" alt="Developer">
-        <h3>
+      <li class="team-members__item">
+        <img  class="team-members__img" src="./img/third-man.jpg" alt="Developer">
+        <h3 class="team-members__name">
           Michael Fertig
         </h3>
-        <p>Developer</p>
+        <p class="team-members__position">Developer</p>
       </li>
     </ul>
   </section>
 </main>
-  <footer>
-    
-        <p>© 2016 MoGo free PSD template by Laaqiq</p>
-        
-   
-
-    
-        <a href="">Your Email...</a>
-        <button>Subscribe</button>
-     
-
-  
+  <footer class="footer">
+      <p class="footer__text">© 2016 MoGo free PSD template by Laaqiq</p>
+      <form class="footer__form">
+        <label class="footer__form__label">
+          <input class="footer__form__input" placeholder= "Your Email..." type="email">
+        </label>     
+        <button class="footer__form__button" type="submit">Subscribe</button>
+      </form>
+       
   </footer>
 </body>
 
